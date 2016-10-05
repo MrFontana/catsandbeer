@@ -122,7 +122,7 @@ p {
 
 .open {
   position: fixed;
-  top: 40px;
+  top: 5px;
   right: 40px;
   width: 50px;
   height: 50px;
@@ -229,3 +229,15 @@ p {
 .oppenned span:nth-child(3) { transform: rotate(-45deg) translateY(-10px) translateX(10px); }
 
 .oppenned li { margin-right: 168px; }
+
+.catPic {
+  height: 300px;
+  width: 33%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.catPic img {
+  height: 100%;
+  width: 100%;
+}
