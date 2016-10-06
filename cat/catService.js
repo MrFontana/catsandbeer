@@ -8,4 +8,10 @@ angular.module('catsAndBeer')
         url: baseUrl + '/api/images/get?results_per_page=6&format=xml&size=medium'
       })
     }
+    this.getRandomCat = function() {
+      return $http({
+        method: 'GET',
+        url: baseUrl + '/api/images/get'
+      })
+    }
   })

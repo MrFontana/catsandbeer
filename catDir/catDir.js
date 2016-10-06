@@ -2,8 +2,10 @@
 // ============================================================
 angular.module("catsAndBeer").directive('catDir', function() {
   return {
-    restrict: 'EA',
     templateUrl: 'catDir/catDir.html',
-    controller: 'catDirCtrl'
-  };
-});
+    controller: 'catDirCtrl',
+    scope: {
+      randomCat: '&'
+    }
+  }
+})

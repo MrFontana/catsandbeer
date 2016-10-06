@@ -18,7 +18,11 @@ angular.module('catsAndBeer', ['ui.router'])
         controller: 'beerCtrl',
         templateUrl: 'beer/beer.html'
       })
-
+      .state('randomCat', {
+        url: '/randomCat',
+        controller: 'catDirCtrl',
+        templateUrl: 'catDir/catDir.html'
+      })
 
 
 

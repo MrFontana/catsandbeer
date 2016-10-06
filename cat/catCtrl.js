@@ -1,6 +1,5 @@
 angular.module('catsAndBeer')
   .controller('catCtrl', function($scope, catService){
-    $scope.cat = "CatController B!"
 
     catService.getCats().then(function(response){
       // Gets back promise and set cats
