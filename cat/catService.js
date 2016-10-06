@@ -5,13 +5,13 @@ angular.module('catsAndBeer')
     this.getCats = function() {
       return $http({
         method: 'GET',
-        url: baseUrl + '/api/images/get?results_per_page=6&format=xml&size=medium'
+        url: baseUrl + '/api/images/get?results_per_page=48&format=xml&size=medium'
       })
     }
     this.getRandomCat = function() {
       return $http({
         method: 'GET',
-        url: baseUrl + '/api/images/get'
+        url: baseUrl + '/api/images/get?format=xml&results_per_page=1'
       })
     }
   })

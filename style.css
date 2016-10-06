@@ -143,7 +143,7 @@ p {
   background-color: #fff;
   position: absolute;
   right: 3px;
-  top: 3px;
+  top: -1vh;
   overflow: hidden;
   transition: all 0.4s ease;
 }
@@ -241,7 +241,38 @@ p {
   height: 100%;
   width: 100%;
 }
-.catButton {
-  height: 100vh;
-  width: 100vw;
+
+.randomCatContainer {
+  /*height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;*/
+  /*margin: 10% 35% 10% 35%;*/
 }
+.pleaseHold {
+  text-align: center;
+  line-height: 20px;
+}
+.catPicRand img {
+  height: 65vh;
+  width: 45vw;
+  position: fixed; /* or absolute */
+    top: 20%;
+    left: 27%;
+    cursor: pointer;
+  /*display: flex;
+  flex-direction: column;*/
+}
+.header-link {
+  cursor: pointer;
+}
+
+.refresh {
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  size: 20px;
+}
+/*position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;*/
