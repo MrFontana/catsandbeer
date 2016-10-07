@@ -1,11 +1,15 @@
 <br><br><br><br>
-<div class="refresh">
-  Refresh For More Cats, <br>
-  Then Soak It AAAAAAAAAAAAALLL In
-</div>
-<div class="catPic" ng-repeat="cat in cats track by $index">
-  <img ng-src="{{cat}}" />
+<div class='catPicContainer'>
 
+    <div class="refresh">
+        Refresh For More Cats,
+        <br>
+        Then Soak It AAAAAAAAAAAAALLL In
+    </div>
+    <div class="catPic" ng-repeat="cat in cats track by $index">
+        <img ng-src="{{cat}}"/>
+
+    </div>
 </div>
 <!--
 randomly places a cat gif on your page
