@@ -130,8 +130,8 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
 
 .open {
   position: fixed;
-  top: 5px;
-  right: 40px;
+  top: 1%;
+  right: 0px;
   width: 50px;
   height: 50px;
   display: block;
@@ -277,7 +277,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   cursor: pointer;
 }
 .catPicContainer {
-  position: fixed;
+  
   top: 10%;
 }
 .refresh {
