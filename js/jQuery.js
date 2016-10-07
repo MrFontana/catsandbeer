@@ -11,12 +11,5 @@ $(document).ready(function() {
     event.stopPropagation();
   })
 
-  //studying anchoring things
-  // $(function() {
-  //   $('#anchor1').click(function() {
-  //     $('html,body').animate({
-  //       scrollTop: $('#part-two').offset().top}, 2000);
-  //         return false;
-  //   });
-  // });
+
 });
