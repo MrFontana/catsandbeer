@@ -1,6 +1,10 @@
 <br><br><br><br>{{beerSlogan}}
-<div ng-repeat="beer in beers">
-    <h5>{{beer}}</h5>
+<br><br>
+<div class="randomBeerContainer">
 
-
+    <img src="http://www.catster.com/wp-content/uploads/2015/06/can-cats-drink-beer-05.jpg"/>
+    {{beer.title}}
+    <div ng-if="beer.brewery.key">
+        {{beer.brewery.title}}
+    </div>
 </div>

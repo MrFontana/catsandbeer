@@ -1,4 +1,12 @@
-@import 'https://fonts.googleapis.com/css?family=Poppins';
+@import 'https://fonts.googleapis.com/css?family=Almendra+SC|Cormorant+Garamond|Gidugu|Lora|Playfair+Display|Roboto|Roboto+Slab';
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Cormorant Garamond', serif; favorite thus far
+font-family: 'Roboto Slab', serif;
+font-family: 'Lora', serif; second favorite
+font-family: 'Playfair Display', serif; favoritest
+font-family: 'Almendra SC', serif;*/
+
 html, body{
   background: url("http://hdfreewallpaper.net/wp-content/uploads/2015/08/Cat-And-Beer-Funny-Animal-Wallpaper-HD-free-for-desktop.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -10,7 +18,7 @@ html, body{
     margin: 0;*/
 }
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Almendra SC', sans-serif;
   color: white;
 }
 .header-container{
@@ -26,7 +34,7 @@ p {
   position: fixed;
 }
 .header-link{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Almendra SC', sans-serif;
   color: #fff;
   font-size: 1.3em;
 }
@@ -58,8 +66,8 @@ p {
   height: 100px;
   width: 200px;
   background-color: white;
-  -webkit-clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
-  clip-path: polygon(50% 84%, 91% 57%, 91% 75%, 50% 100%, 9% 75%, 9% 57%);
+  -webkit-clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%);
+clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22%);
 }
 
 #part-two{
@@ -250,15 +258,18 @@ p {
   /*margin: 10% 35% 10% 35%;*/
 }
 .pleaseHold {
+  font-family: 'Playfair Display', serif;'
   text-align: center;
   line-height: 20px;
 }
 .catPicRand img {
   height: 65vh;
-  width: 45vw;
+  /*width: 45vw;*/
   position: fixed; /* or absolute */
     top: 20%;
-    left: 27%;
+    left: 50%;
+    transform: translate(-50%);
+    /*left: 27%;*/
     cursor: pointer;
   /*display: flex;
   flex-direction: column;*/
@@ -269,10 +280,14 @@ p {
 
 .refresh {
   text-align: center;
-  line-height: 20px;
+  font-family: 'Playfair Display', serif;
+  line-height: 40px;
   color: white;
-  size: 20px;
+  font-size: 40px;
 }
-/*position: fixed; /* or absolute */
-  top: 50%;
-  left: 50%;*/
+.randomBeerContainer {
+  color: white;
+}
+.randomBeerContainer img {
+  height: 300px;
+}
