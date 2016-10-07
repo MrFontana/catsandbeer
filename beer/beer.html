@@ -1,10 +1,21 @@
-<br><br><br><br>{{beerSlogan}}
-<br><br>
 <div class="randomBeerContainer">
-
+    <p class='getMeABeer'>Refresh To Get A Random Beer</p>
     <img src="http://www.catster.com/wp-content/uploads/2015/06/can-cats-drink-beer-05.jpg"/>
-    {{beer.title}}
+    <br>
+    <div class='beerTitle'>
+        <span class='boldMe'>Beer Name:</span>
+        {{beer.title}}
+    </div>
     <div ng-if="beer.brewery.key">
+        <span class='boldMe'>Brewery Name:</span>
         {{beer.brewery.title}}
+    </div>
+    <div ng-if='beer.country.title'>
+        <span class='boldMe'>Ctry of Origin:</span>
+        {{beer.country.title}}
+    </div>
+    <div ng-if='beer.abv'>
+        <span class='boldMe'>ABV:</span>
+        {{beer.abv}}
     </div>
 </div>
