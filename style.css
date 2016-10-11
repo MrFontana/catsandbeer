@@ -277,7 +277,7 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   cursor: pointer;
 }
 .catPicContainer {
-  
+
   top: 10%;
 }
 .refresh {
@@ -286,6 +286,31 @@ clip-path: polygon(35% 51%, 66% 51%, 90% 22%, 85% 70%, 52% 100%, 17% 71%, 10% 22
   line-height: 40px;
   color: white;
   font-size: 40px;
+}
+#resetCats {
+  font-family: 'Playfair Display', serif;
+  font-size: 40%;
+  border: 1px solid white;
+  background: rgba(0,0,0, .6);
+  color: white;
+  width: 34vw;
+  height: 8vh;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+
+}
+#resetBeer{
+  font-family: 'Playfair Display', serif;
+  font-size: 85%;
+  border: 1px solid white;
+  background: rgba(0,0,0, .6);
+  color: white;
+  width: 20vw;
+  height: 5vh;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
 }
 .getMeABeer {
   color: white;

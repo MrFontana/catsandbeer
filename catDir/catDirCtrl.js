@@ -1,10 +1,9 @@
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("catsAndBeer").controller("catDirCtrl", function($scope, catService) {
+angular.module("catsAndBeer").controller("catDirCtrl", function($scope, $window, catService) {
 
   // VARIABLES
   // ============================================================
-  $scope.catMessage = "hey cat buddy"
 
   // FUNCTIONS
   // ============================================================
